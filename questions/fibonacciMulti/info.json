@@ -1,0 +1,11 @@
+{
+    "title": "Write a Fibonacci using MultiFile",
+    "topic": "Functions",
+    "tags": ["recursion"],
+    "clientFiles": ["client.js", "question.html", "answer.html", "fib.py", "fibRec.py"],
+    "type": "Calculation",
+    "options": {
+        "requiredFiles": ["fib.py", "fibRec.py"],
+        "providedFiles": ["fib.py", "fibRec.py"]
+    }
+}

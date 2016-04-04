@@ -1,0 +1,21 @@
+<h4>Download your problem</h4>
+
+<% _(params.providedFiles).each(function(file) { %>
+<p>
+    <a href="<% print(questionFile(file)) %>" target="_blank">
+        Download <code><%= file %></code>
+    </a>
+</p>
+<% }); %>
+
+<p>
+    Complete the empty <tt>fib</tt> in function <tt>fib.py</tt> to iteratively compute the <i>n</i>th Fibonacci number.
+</p>
+
+<p>
+    Complete the empty <tt>fibRec</tt> function in <tt>fibRec.py</tt> to recursively compute the <i>n</i>th Fibonacci number.
+</p>
+
+<h4>Upload your solution</h4>
+<div id="fileUpload">
+</div>
